@@ -1,0 +1,24 @@
+{
+  "name": "nekotama-pomelo-client-wx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathang4/nekotama-pomelo-client-wx.git"
+  },
+  "keywords": [
+    "pomelo",
+    "web",
+    "client"
+  ],
+  "author": "jonathang4",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathang4/nekotama-pomelo-client-wx/issues"
+  },
+  "homepage": "https://github.com/jonathang4/nekotama-pomelo-client-wx#readme"
+}
