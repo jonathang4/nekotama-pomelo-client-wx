@@ -83,10 +83,10 @@
     encode = params.encode || defaultEncode;
     decode = params.decode || defaultDecode;
 
-    var url = 'ws://' + host;
-    if(port) {
-      url +=  ':' + port;
-    }
+    var url = 'wws://' + host;
+    // if(port) {
+    //   url +=  ':' + port;
+    // }
 
     handshakeBuffer.user = params.user;
     if(params.encrypt) {
@@ -266,17 +266,7 @@
   };
 
   var send = function(packet) {
-    socket.send({data:packet.buffer,
-      success:function(){
-        console.log("send success",arguments);
-      },
-      fail:function(){
-        console.log("send fail",arguments);
-      },
-      complete:function(){
-        console.log("send complete",arguments);
-      }
-    });
+    socket.send({data:packet.buffer});
   };
 
   var handler = {};
