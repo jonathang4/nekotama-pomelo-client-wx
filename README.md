@@ -14,7 +14,7 @@ npm i nekotama-pomelo-client-wx
 require("nekotama-pomelo-client-wx");
 ```
 
->调用请API参考[pomelo客户端开发][3]   注意:由于微信小程序限制，该库中的port字段不可设置，且链接方式修改为wss。
+>调用API请参考官方文档:[pomelo客户端开发][3]。注意:由于微信小程序限制，该库中的port字段不可设置，且链接方式修改为wss。
 
 ## 问题反馈
 - Email: <jonathangdemon@gmail.com>
