@@ -83,7 +83,7 @@
     encode = params.encode || defaultEncode;
     decode = params.decode || defaultDecode;
 
-    var url = 'wws://' + host;
+    var url = 'wss://' + host;
     // if(port) {
     //   url +=  ':' + port;
     // }
